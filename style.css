@@ -1,0 +1,109 @@
+/*
+Theme name:mysecondsite.com
+author:kripa mariya
+*/
+
+
+*{
+	margin:0px;
+    padding:0px
+	}
+.b1 { 
+	   background-image:url(img/3.jpg); 
+       background-repeat:no-repeat; 
+	   background-size:cover; 
+	   background-attachment:fixed; 
+	   } 
+	  
+
+.row{display:flex;
+      margin-left:15px;
+	  margin-right:15px;
+       text-align:justify}
+.col{width:450px;
+     height:250px;
+	 box-sizing:border-box;
+	 padding:15px;
+	 margin:20px;
+	 background-color:rgba(0,0,0,0.4);}
+.menubar {
+	text-align:center;
+	background-color:tomato;
+	padding:15px;
+	}
+.menubar ul{
+	list-style:none;
+	display:inline-flex;
+}
+	
+.menubar ul li {
+	padding:10px;
+	margin:20px;
+	}
+.menubar ul li:hover {background-color:hotpink}
+
+.menubar ul li a{
+	text-decoration:none;
+	}
+ .submenu{ 
+	 display:none;
+     z-index:1;	 
+ } 
+
+.menubar ul li:hover .submenu {
+	display:block; 
+	position:absolute; 
+	background-color:cyan;
+	transition:10sec;
+	margin-top:12px;
+    margin-left:-15px;
+	}
+.submenu ul li{border-bottom:1px solid black}	
+.menubar ul li:hover .submenu ul {		
+   display:block;
+   border-radius:10px;
+   
+   
+} 
+
+.gal{text-align:center;}  
+
+.gal img{width:300px;
+          height:150px;
+		  margin:30px;
+		  box-shadow:10px  10px 5px grey;
+		  filter:grayscale(100%);
+		  transition:1s;}
+.gal img:hover{filter:grayscale(0%);
+               transform:scale(1.2);}
+.cont{
+	  width:450px;
+      text-align:center;
+	  height:500px;
+	  position:relative;
+	  margin:10px;
+	  left:400px;
+	  padding:40px;
+	  background-color:rgba(0,0,0,0.8);}
+.frm{width:300px;
+      margin:15px;
+	  padding:20px;
+	  border:1px solid #5b80a4;
+	  color:white;
+	  transition:0.5s;}
+
+.btn{float:right;
+      padding:15px 50px;
+	  border-radius:10px;
+	  outline:none;
+	  margin-left:20px;}
+.log{width:450px;
+      padding:80px;
+	  margin:10px;
+	  position:relative;
+	  background-color:rgba(0,0,0,0.8)}	 
+h1{text-align:center;
+    color:black;text-decoration:underline;}	
+.ft{background-color:black;
+     text-align:center;}	
+								
